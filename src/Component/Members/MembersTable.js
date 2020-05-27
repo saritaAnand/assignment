@@ -37,7 +37,7 @@ export default class Members extends React.Component{
         })
         .catch(error =>{
             console.log("ERROR");
-            alert('ERROR!!! Pls start json server at http://localhost:3004/posts');
+            alert('ERROR!!! Pls start json-server');
         })
     }
 
