@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Coding Challenge
+## Front End Assignment
 
-## Available Scripts
+A coding challenge based on ReactJS. 
 
-In the project directory, you can run:
+![table](https://user-images.githubusercontent.com/41993796/83009076-cd845700-a033-11ea-8bb5-518902bb6c89.png)
 
-### `npm start`
+![popupCalendar](https://user-images.githubusercontent.com/41993796/83009133-e12fbd80-a033-11ea-83b8-0b749d9768eb.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![membersactivity](https://user-images.githubusercontent.com/41993796/83009160-eab92580-a033-11ea-8864-fd7fe34bf1f8.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Dependencies:
+- React Datepicker https://www.npmjs.com/package/react-datepicker
+- JSON Server  https://github.com/typicode/json-server
 
-### `npm test`
+## Installations:
+1. Install NodeJS using [Node.js](https://nodejs.org/en/). It is mandatory to have Node 8.16.0 or later version in local development machine. 
+2. Install React and all inbuilt dependencies using ``` npx create-react-app project-name ```
+3. Install JSON Server using npm install ``` npm install -g json-server ```
+4. Instal React Datepicker using ``` npm install react-datepicker --save ```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Executions
+1. Type ```npm start``` to run the app locally.
+2. From another terminal run ```json-server --watch db.json --port 3004 ```
 
-### `npm run build`
+``` Note: JSON format must be the same.```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+Example:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+"activity_periods":
+[{
+		"start_time": "Feb 1 2020  1:33PM",
+		"end_time": "Feb 1 2020 1:54PM" 
+}},
+ There is double space between date and time in "start_time"
+ There is single space between date and time in "end_time"
+ ```
