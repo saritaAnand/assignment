@@ -1,0 +1,41 @@
+.wrapper{
+    margin: 18px 18px 12px 18px;
+    background-color: #fff;
+    padding: 12px;
+}
+.member{
+    text-align: center;
+    border-collapse: collapse;
+    width:100%;
+    color: #808080;
+    font-size: 15px;
+} 
+.member td, .member th {
+    border:1px solid #ddd;
+    padding: 8px;
+}
+
+.member tr:hover{
+    background-color:  #dddddd;
+}
+
+.member th{
+    padding: 8px;
+    text-align: left;
+    background-color:#b30000;
+    /* background-color: #b3b3b3; */
+    /* background-color:  */
+    color:white;
+    text-align: center;
+}
+
+.btn{ 
+    border: 2px solid #b30000;
+    background-color: white !important;
+    /* border: none; */
+    color: black;
+    padding: 6px 8px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2px;
+}
