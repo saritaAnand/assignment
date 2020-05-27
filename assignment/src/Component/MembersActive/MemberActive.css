@@ -1,0 +1,11 @@
+.datePicker {
+    width: 10rem;
+    border: 1px solid #990000;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.action{
+    margin: 1rem;
+}

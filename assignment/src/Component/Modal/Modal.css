@@ -1,0 +1,40 @@
+ .modal{
+    max-width:50%;
+    height:10rem;
+    background-color: white;
+    box-shadow: 1px 2px 15px rgba(0,0,0,0.26);
+    position: fixed;
+    top: 20vh;
+    left:25%;
+    right:25%;
+}  
+
+.modal_header{
+    padding: 1rem;
+    /* background-color: #F71735; */
+    /* background-color: #990000; */
+    background-color:#b30000;
+    color: white;
+}
+
+.modal_header_h1{
+    margin:0;
+    font-size: 1.25rem;
+}
+
+.modal_content{
+    padding: 1rem;
+    background-color: white;
+}
+
+.modal_actions{
+    padding: 2rem;
+    text-align: center;
+}
+
+/* @media (min-width: 700px){
+    .modal{
+        width: 60rem;
+        left: calc((100%-60rem)/2);
+    }
+} */
